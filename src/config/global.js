@@ -228,7 +228,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/12210557_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -482,31 +482,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ana Roció Rosero Cortes',
-          cargo: 'Experta temática',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Leonardo Camacho Acevedo',
-          cargo: 'Experto temático',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Alba Mireya Orjuela Toro',
-          cargo: 'Experta temática',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Juan Pablo Cristancho Cubillos',
-          cargo: 'Experto temático',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'María Angelica Gómez Morales',
+          nombre: 'Paola Andrea Tello Zambrano',
           cargo: 'Experta temática',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -517,17 +493,17 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
+        {
+          nombre: 'Juan José Calderón Gutierrez',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        {
-          nombre: 'Jorge David Barbosa Losada',
-          cargo: 'Diseñador de contenidos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
         {
           nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',

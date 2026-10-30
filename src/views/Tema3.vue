@@ -589,7 +589,7 @@
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img4.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Diferencia entre falta temporal y problema recurrente
-      p Una disminución del efectivo puede ser temporal cuando los pagos se realizan antes de recibir los ingresos, como ocurre en algunas actividades agrícolas. Sin embargo, si los faltantes se repiten, el saldo disminuye progresivamente o se depende de financiación frecuente es necesario identificar las causas del desequilibrio. 
+      p Una disminución del efectivo puede ser temporal cuando los pagos se realizan antes de recibir los ingresos, como ocurre en algunas actividades agrícolas. Sin embargo, si los faltantes se repiten, el saldo disminuye progresivamente o se depende de financiación frecuente; es necesario identificar las causas del desequilibrio. 
       p.mb-5 La siguiente comparación permite diferenciar una disminución temporal del efectivo de una dificultad que se mantiene durante varios periodos:
       .bg-1
         .px-5
@@ -699,7 +699,7 @@
       p.mb-5 Se invita a reproducir el siguiente video para profundizar en la proyección del flujo de caja mediante la estimación de entradas, salidas y saldos futuros a partir de la información disponible:
       figure(data-aos="zoom-in").mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Y0OqPRJUkcg?si=cklQt2pLr3Gmnd0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Proyección del flujo de caja: anticipación de entradas, salidas y faltantes
 
 </template>
