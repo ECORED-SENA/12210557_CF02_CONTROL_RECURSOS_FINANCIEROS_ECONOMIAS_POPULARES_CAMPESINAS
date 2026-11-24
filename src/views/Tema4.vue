@@ -92,7 +92,7 @@
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/t4/img5.png", alt="" style="width: 400px").m-auto
             .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
                 .row(titulo="Situación de riesgo").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Responde a la pregunta #[b ¿qué podría ocurrir?] Por ejemplo, puede presentarse un retraso en el pago de clientes.
                 .row(titulo="Causa").ajuste-cajaAcordion.ajuste-vineta
@@ -101,7 +101,7 @@
                   p.mb-3 Identifica #[b qué efecto produciría] la materialización del riesgo, como una menor disponibilidad de efectivo.
           .row.align-items-center.mb-5
             .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
                 .row(titulo="Recurso afectado").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Determina #[b qué parte del negocio podría verse comprometida], por ejemplo, la caja o la capacidad de pago.
                 .row(titulo="Probabilidad").ajuste-cajaAcordion.ajuste-vineta
@@ -139,7 +139,7 @@
       p.mb-5 Entre las principales características de los riesgos financieros se encuentran las siguientes:
       .bg-4
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
             .tarjeta.color-acento-botones
               .row.justify-content-center.mb-3
                 .col-12
@@ -716,7 +716,7 @@
             h4 Anexo 2. Evaluación y priorización de riesgos financieros
             p.mb-0 
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_02_Ealuacion_Riesgos_Financieros.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_02_Ealuacion_Riesgos_Financieros.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 

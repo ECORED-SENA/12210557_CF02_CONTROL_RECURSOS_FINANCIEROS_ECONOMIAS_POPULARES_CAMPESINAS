@@ -531,7 +531,7 @@
       p.mb-5 Antes de analizar los resultados, deben comprobarse las entradas, las salidas, las fechas, los totales y la continuidad de los saldos. Esta revisión permite detectar errores que podrían modificar la interpretación de la disponibilidad de efectivo. Las verificaciones se agrupan en los siguientes aspectos:
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Saldos inicial y final").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 El saldo inicial debe corresponder al saldo final del periodo anterior. Al concluir el cálculo, debe comprobarse que el saldo final resulte de adicionar el movimiento neto al saldo inicial y que pueda trasladarse correctamente al periodo siguiente.
             .row(titulo="Entradas y salidas").ajuste-cajaAcordion.ajuste-vineta
@@ -563,7 +563,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img25.png", alt="" style="width: 500px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Salidas superiores a las entradas").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La situación reduce el efectivo disponible durante el periodo y puede generar un faltante si el saldo inicial no permite cubrir la diferencia.
             .row(titulo="Saldo final insuficiente").ajuste-cajaAcordion.ajuste-vineta
@@ -574,7 +574,7 @@
               p.mb-3 El aumento de las compras puede concentrar recursos en mercancías, materiales o productos y reducir temporalmente el efectivo disponible.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Concentración de pagos").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La coincidencia de varias obligaciones en una misma fecha incrementa la presión sobre el efectivo y puede ocasionar insuficiencia de recursos.
             .row(titulo="Retraso frecuente de clientes").ajuste-cajaAcordion.ajuste-vineta

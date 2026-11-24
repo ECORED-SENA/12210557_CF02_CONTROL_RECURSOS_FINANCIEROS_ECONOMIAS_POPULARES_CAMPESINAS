@@ -65,7 +65,7 @@
           p.mb-5 Las siguientes características contribuyen a que una medida preventiva pueda aplicarse y verificarse adecuadamente:
           .bg-4
             .px-5
-              SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -154,7 +154,7 @@
           p.mb-5 Las medidas preventivas permiten pasar de una administración reactiva a una gestión anticipada de los recursos. Su aplicación favorece la detección oportuna de dificultades y contribuye a proteger la continuidad de la actividad mediante decisiones sustentadas en información financiera. Su importancia se refleja en diferentes aspectos de la gestión financiera:
           .bg-4
             .px-5
-              SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -266,7 +266,7 @@
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/t5/img15.png", alt="" style="width: 500px").m-auto
             .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
                 .row(titulo="Riesgo").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Define la situación que se pretende prevenir y establece el punto de partida para formular la medida.
                 .row(titulo="Causa").ajuste-cajaAcordion.ajuste-vineta
@@ -277,7 +277,7 @@
                   p.mb-3 Establece quién tendrá a cargo la ejecución y el seguimiento de la acción definida.
           .row.align-items-center.mb-5
             .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
                 .row(titulo="Periodicidad").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Determina cuándo o con qué frecuencia debe realizarse la medida preventiva.
                 .row(titulo="Información requerida").ajuste-cajaAcordion.ajuste-vineta
@@ -293,7 +293,7 @@
       p.mb-5 Las medidas preventivas deben adaptarse al origen de cada exposición financiera. Una acción adecuada para un problema de liquidez no necesariamente responde a un riesgo de crédito o a una variación en los costos. Estas se detallan a continuación:
       .bg-4
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
             .tarjeta.color-acento-botones
               .row.justify-content-center.mb-3
                 .col-12
@@ -489,7 +489,7 @@
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/t5/img27.png", alt="" style="width: 300px").m-auto
             .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
                 .row(titulo="Cumplimiento").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Permite comprobar si la medida se realizó en la fecha o con la periodicidad establecida.
                 .row(titulo="Resultado").ajuste-cajaAcordion.ajuste-vineta
@@ -510,7 +510,7 @@
       p.mb-5 Los principales objetivos del control de recursos son los siguientes:
       .bg-4
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
             .tarjeta.color-acento-botones
               .row.justify-content-center.mb-3
                 .col-12

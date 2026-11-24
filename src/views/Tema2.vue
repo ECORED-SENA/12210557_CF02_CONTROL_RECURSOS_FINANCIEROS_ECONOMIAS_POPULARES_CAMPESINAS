@@ -25,25 +25,25 @@
             .row(titulo="2009" subtitulo="Ley 1314")
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/t2/img2.png", alt="alt" style="max-width: 190px").m-auto
+                  img(src="@/assets/curso/temas/t2/img2.png", alt="alt", style="max-width: 190px").m-auto
               .col-lg-6
                 p.mb-0 Regula los principios y las normas de contabilidad, información financiera y aseguramiento de la información aplicables en Colombia.
             .row(titulo="2015" subtitulo="Decreto 2420")
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/t2/img3.png", alt="alt" style="max-width: 190px").m-auto
+                  img(src="@/assets/curso/temas/t2/img3.png", alt="alt", style="max-width: 190px").m-auto
               .col-lg-6
                 p.mb-0 Compila las normas de contabilidad, información financiera y aseguramiento aplicables a los diferentes grupos de preparadores.
             .row(titulo="2015" subtitulo="Anexo 3 del Decreto 2420")
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/t2/img4.png", alt="alt" style="max-width: 190px").m-auto
+                  img(src="@/assets/curso/temas/t2/img4.png", alt="alt", style="max-width: 190px").m-auto
               .col-lg-6
                 p.mb-0 Establece el marco técnico y los criterios simplificados para preparar información financiera correspondiente a las entidades del Grupo 3.
             .row(titulo="2021" subtitulo="Decreto 1670")
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
-                  img(src="@/assets/curso/temas/t2/img5.png", alt="alt" style="max-width: 190px").m-auto
+                  img(src="@/assets/curso/temas/t2/img5.png", alt="alt", style="max-width: 190px").m-auto
               .col-lg-6
                 p.mb-0 Modifica las condiciones de clasificación de los Grupos 2 y 3. Sus disposiciones son aplicables a los estados financieros de propósito general desde el 1 de enero de 2023.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
@@ -124,7 +124,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img11.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Comprensibilidad").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La información se organiza y presenta de manera clara para que los usuarios puedan interpretar la situación financiera y los resultados del negocio.
             .row(titulo="Relevancia").ajuste-cajaAcordion.ajuste-vineta
@@ -145,8 +145,8 @@
       p.mb-5 Las principales partidas se clasifican según su naturaleza y el plazo previsto para su realización o pago:
       .bg-slider.mb-5
         .px-5
-          .ajuste-slider(data-aos="zoom-in")
-            SlyderA(tipo="b")
+          .ajuste-slider
+            SlyderA(tipo="b" data-aos="zoom-in")
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Activo corriente
@@ -356,7 +356,7 @@
             .row.align-items-center
               .col-xl.order-2.order-lg-1.caja-1__text
                 h5 Ejemplo aplicado
-                p.mb-0 Una unidad campesina registra ventas mensuales por #[b $7.500.000] y devoluciones por #[b $200.000]. Por tanto, las ventas netas corresponden a: #[b $7.500.000 − $200.000 = $7.300.000].
+                p.mb-0 Una unidad campesina registra ventas mensuales por #[b $7.500.000] y devoluciones por #[b $200.000]. Por tanto, las ventas netas corresponden a: #[b $7.500.000 - $200.000 = $7.300.000].
               .col-xl-auto.order-1.order-lg-2
                 figure
                   img(src='@/assets/curso/temas/t2/img20.png', alt='' style="width: 500px").m-auto
@@ -367,7 +367,7 @@
       .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-xl-6
           .caja-2  
-            h5.mb-0 Utilidad bruta = Ventas netas − Costo de ventas
+            h5.mb-0 Utilidad bruta = Ventas netas - Costo de ventas
       p.mb-5 Esta diferencia permite analizar qué parte de los ingresos permanece después de reconocer el costo directamente relacionado con los productos vendidos.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img4.png')
@@ -411,7 +411,7 @@
                       td.ajuste-border-tabla.texto-left.text-weight-bold Menos: gastos de funcionamiento
                       td.texto-left $2.100.000
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Resultado del periodo – utilidad
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Resultado del periodo - utilidad
                       td.texto-left $1.250.000
           .titulo-tercer-nivel.mb-5(data-aos="fade-right")
             img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img4.png')
@@ -696,7 +696,7 @@
             h4 Anexo 1. Lectura e interpretación básica de los estados financieros
             p.mb-0 
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_ Interpretacion_Estados_Financieros.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_01_ Interpretacion_Estados_Financieros.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
