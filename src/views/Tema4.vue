@@ -716,7 +716,7 @@
             h4 Anexo 2. Evaluación y priorización de riesgos financieros
             p.mb-0 
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_02_Ealuacion_Riesgos_Financieros.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_02_Evaluacion_Riesgos_Financieros.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
